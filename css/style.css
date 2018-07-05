@@ -6,7 +6,6 @@ body {
     background-image: url(../img/back1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
     margin: 0;
     padding: 0;
 }
@@ -62,6 +61,20 @@ body {
   padding-left: 50px;
   padding-bottom: 20px;
 }
+.img-icon {
+  max-width: 155px;
+  max-height: 155px;
+}
+.body-page-home-blocks-tittle {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 26px;
+}
+.body-page-home-blocks-content {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
 .body-page-home-blocks-button {
   height: 45px;
   width: 180px;
@@ -91,7 +104,15 @@ body {
   letter-spacing: 1.5px;
   opacity: 0.7;
   filter: alpha(Opacity=70);
-
+}
+.body-page-home-2-tittle {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: white;
+}
+.body-page-home-2-content {
+  font-size: 23px;
+  color: white;
 }
 .bottom-footer {
   width: 100%;
@@ -105,9 +126,179 @@ body {
   justify-content: center;
   padding-bottom: 6px;
 }
+.bottom-footer-1-text {
+  display: block;
+  line-height: 1.2em;
+  margin-right: 100px;
+}
 .bottom-footer-2 {
   display: flex;
   text-align: right;
+}
+.bottom-footer-2-text {
+  float: right;
+  display: block;
+  line-height: 1.2em;
+  font-size: 12px;
+}
+.bottom-footer-2-1-text {
+  float: right;
+  display: block;
+  line-height: 1.2em;
+}
+
+@media (max-width: 768px) {
+  body {
+      width: 768px;
+      min-height: 700px;
+      width: 100%;
+      height: 100%;
+      background-image: url(../img/back1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+  }
+  .padding-page {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+  .head-tittle {
+      width: 100%;
+      height: 65px;
+      display: inline;
+      background-color: #6caae6;
+      margin-top: 0px;
+      padding: 0px;
+      display: block;
+  }
+  .head-tittle-logo {
+    padding-top: 12px;
+    float: left;
+    font-size: 22px !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .head-tittle-menu {
+    padding-top: 14px;
+
+  }
+  .menu-li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .body-page-home {
+    width: 100%;
+    height: 360px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .body-page-home-blocks {
+    width: 150px;
+    height: 225px;
+    margin-top: 55px;
+    border-radius: 10%;
+    background-color: white;
+    margin-right: 10px;
+  }
+  .body-page-home-blocks-img {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 8px;
+  }
+  .img-icon {
+    max-width: 90px;
+    max-height: 90px;
+  }
+  .body-page-home-blocks-tittle {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  .body-page-home-blocks-content {
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 11px;
+  }
+  .body-page-home-blocks-button {
+    height: 30px;
+    width: 100px;
+    background-color: #6caae6;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: none;
+    margin-bottom: 15px;
+  }
+  .body-page-home-2 {
+    width: 100%;
+    height: 230px;
+    display: block;
+    margin-bottom: 55px;
+  }
+  .body-page-home-2-blocks {
+    width: 100%;
+    height: 120px;
+    display: block;
+    background-color: #6caae6;
+    border-radius: 20px;
+    padding: 14px 10px 20px 10px;
+    letter-spacing: 1.5px;
+    opacity: 0.7;
+    filter: alpha(Opacity=70);
+  }
+  .body-page-home-2-tittle {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+  }
+  .body-page-home-2-content {
+    font-size: 14px;
+    color: white;
+  }
+  .bottom-footer {
+    width: 100%;
+    height: 110px;
+    display: block;
+    background-color: #26cc69;
+    padding-top: 18px;
+  }
+  .bottom-footer-1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6px;
+  }
+  .bottom-footer-1-text {
+    display: block;
+    line-height: 1.2em;
+    margin-right: 80px;
+    font-size: 10px;
+  }
+  .bottom-footer-2 {
+    display: flex;
+    text-align: right;
+  }
+  .bottom-footer-2-text {
+    float: right;
+    display: block;
+    line-height: 1.2em;
+    font-size: 8px;
+  }
+  .bottom-footer-2-1-text {
+    float: right;
+    display: block;
+    line-height: 1.2em;
+    font-size: 10px;
+  }
+
 }
 
 
